@@ -84,8 +84,8 @@ test (291241, 22)
 feature 간의 중요도는 1위 maximum_speed_limit, 2위 end_longitude 순으로 높은 것을 알 수 있다.          
 
 ### 🍀 Accuracy & MSE      
-**Accuracy** : 0.91
-**MSE** : 3.58
+**Accuracy** : 0.91       
+**MSE** : 3.58      
 
 ---
 
