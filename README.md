@@ -79,7 +79,7 @@ test (291241, 22)
 <img src="https://user-images.githubusercontent.com/72390138/202990875-64eb022a-a2d1-44f2-b315-eab975abc9f0.png" weight="800" height="600">       
 
  
-### 🌳 Tree-based Machine Learning Modeling      
+### 🌳 Tree-based Machine Learning Modeling : RandomForestRegressor        
 **Feature Importances**     
 <img src="https://user-images.githubusercontent.com/72390138/202991325-e7b6245c-5f50-4c42-9ce3-6c87eaa6d2b3.png" weight="500" height="400">       
 feature 간의 중요도는 1위 maximum_speed_limit, 2위 end_longitude 순으로 높은 것을 알 수 있다.          
