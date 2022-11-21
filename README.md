@@ -23,7 +23,8 @@ dacon AI 경진대회 : **제주도 도로 교통량 예측하기**
 팀 2️⃣ : 우혜진, 이혜빈, 김호연         
 
 ### 📜 Summary    
-<img src="https://user-images.githubusercontent.com/72390138/202985924-8a7c9ca6-c9a4-46cd-8a74-4c9189bb35aa.png">            
+<img src="https://user-images.githubusercontent.com/72390138/202985924-8a7c9ca6-c9a4-46cd-8a74-4c9189bb35aa.png">      
+
 **제주도내 주민등록인구**는 2022년 기준 약 68만명으로, **연평균 1.3%정도 매년 증가**하고 있습니다.     
 또한 외국인과 관광객까지 고려하면 **전체 상주인구는 90만명**을 넘을 것으로 추정되며,     
 제주도민 증가와 외국인의 증가로 현재 제주도의 교통체증이 심각한 문제로 떠오르고 있습니다.    
