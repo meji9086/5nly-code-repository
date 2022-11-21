@@ -72,11 +72,10 @@ test (291241, 22)
 평균적으로 일반국도에서 속도가 높다.     
 
 **각 feature별 상관관계**      
-<img src="https://user-images.githubusercontent.com/72390138/202992579-652384d7-324f-410f-9615-9a8440b2c1b4.png" weight="600" height="500">       
-
+<img src="https://user-images.githubusercontent.com/72390138/202992579-652384d7-324f-410f-9615-9a8440b2c1b4.png" weight="800" height="600">       
 
 **각 feature별 histogram**     
-<img src="https://user-images.githubusercontent.com/72390138/202990875-64eb022a-a2d1-44f2-b315-eab975abc9f0.png" weight="600" height="400">       
+<img src="https://user-images.githubusercontent.com/72390138/202990875-64eb022a-a2d1-44f2-b315-eab975abc9f0.png" weight="800" height="600">       
 
 ### 🌳 Tree-based Machine Learning Modeling      
 **Feature Importances**     
