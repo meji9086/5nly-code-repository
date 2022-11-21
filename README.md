@@ -67,7 +67,7 @@ test (291241, 22)
 7월에 가장 평균 속도가 급감소함에 따라 교통량이 급증가한 것을 알 수 있다.    
 이는, 여름 휴가로 인한 차량 이동이 증가함을 추측할 수 있다.        
 
-**도로별 최고 속도 상위 top10**
+**도로별 최고 속도 상위 top10**           
 <img src="https://user-images.githubusercontent.com/72390138/202984309-ea82d1e4-8b6f-4e7d-a300-50a610f1652a.png" weight="400" height="400">     
 평균적으로 일반국도에서 속도가 높다.     
 
@@ -77,6 +77,7 @@ test (291241, 22)
 **각 feature별 histogram**     
 <img src="https://user-images.githubusercontent.com/72390138/202990875-64eb022a-a2d1-44f2-b315-eab975abc9f0.png" weight="800" height="600">       
 
+ 
 ### 🌳 Tree-based Machine Learning Modeling      
 **Feature Importances**     
 <img src="https://user-images.githubusercontent.com/72390138/202991325-e7b6245c-5f50-4c42-9ce3-6c87eaa6d2b3.png" weight="500" height="400">       
