@@ -51,30 +51,30 @@ test (291241, 22)
 |<span style="color:blue">[김예지](https://github.com/meji9086)</span>|Jeju_Traffic_LightGBM_YJ.ipynb|             
 
 ### 📊 Visualization    
-**요일별 평균 속도**      
+**1. 요일별 평균 속도**      
 <img src="https://user-images.githubusercontent.com/72390138/202987700-8e7cf624-f8b2-4700-a30c-dd7ed084c963.png">     
 금요일에 속도가 감소함에 따라, 교통량이 증가한 것을 알 수 있다.   
 이는, 금요일의 차량 이동량이 많다는 것을 의미한다.     
 
-**시간별 평균 속도**        
+**2 .시간별 평균 속도**        
 <img src="https://user-images.githubusercontent.com/72390138/202988024-db4da307-71d2-468b-a93c-54edfedfb302.png">      
 00시 - 05시, 18 - 24시에 속도가 증가함에 따라, 교통량은 감소한 것을 알 수 있다.     
 18시에는 가장 속도가 느린 것으로 보아 차량 이동량이 많다는 것을 알 수 있다.     
 이는, 퇴근 길에 가장 차량 이동이 많다는 것을 추측할 수 있다.        
 
-**연간 속도 추이**       
+**3. 연간 속도 추이**       
 <img src="https://user-images.githubusercontent.com/72390138/202988769-a14e9747-542c-4f1d-a81c-144135fd459d.png">      
 7월에 가장 평균 속도가 급감소함에 따라 교통량이 급증가한 것을 알 수 있다.    
 이는, 여름 휴가로 인한 차량 이동이 증가함을 추측할 수 있다.        
 
-**도로별 최고 속도 상위 top10**           
+**4. 도로별 최고 속도 상위 top10**           
 <img src="https://user-images.githubusercontent.com/72390138/202984309-ea82d1e4-8b6f-4e7d-a300-50a610f1652a.png" weight="400" height="400">     
 평균적으로 일반국도에서 속도가 높다.     
 
-**각 feature별 상관관계**      
+**5. 각 feature별 상관관계**      
 <img src="https://user-images.githubusercontent.com/72390138/202992579-652384d7-324f-410f-9615-9a8440b2c1b4.png" weight="800" height="600">       
 
-**각 feature별 histogram**     
+**6. 각 feature별 histogram**     
 <img src="https://user-images.githubusercontent.com/72390138/202990875-64eb022a-a2d1-44f2-b315-eab975abc9f0.png" weight="800" height="600">       
 
  
