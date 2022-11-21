@@ -11,6 +11,8 @@
 |<span style="color:blue">[우혜진](https://github.com/hyejinWooo)</span>|<a href="https://github.com/hyejinWooo"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|           
 |<span style="color:blue">[김예지](https://github.com/meji9086)</span>|<a href="https://github.com/meji9086"><img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=White"/>|             
 
+---
+
 ## 1. 🚥 Prediction Road Traffic in Jeju Island 🚥         
 <img src="https://user-images.githubusercontent.com/72390138/201039705-4141a0b9-9230-4141-85c3-9efdf5c91e71.png">        
 
@@ -64,4 +66,4 @@ test (350, 11)
 |<span style="color:blue">[우신](https://github.com/tvn123)</span>||         
 |<span style="color:blue">[이혜빈](https://github.com/dkssudgb)</span>||       
 |<span style="color:blue">[우혜진](https://github.com/hyejinWooo)</span>|Laptop price prediction_우혜진.ipynb|         
-|<span style="color:blue">[김예지](https://github.com/meji9086)</span>||   
+|<span style="color:blue">[김예지](https://github.com/meji9086)</span>|Laptop_price_predict_YJ.ipynb|   
