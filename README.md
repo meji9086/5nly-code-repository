@@ -96,6 +96,15 @@ feature 간의 중요도는 1위 maximum_speed_limit, 2위 end_longitude 순으�
 Kaggle AI 경진대회 : **노트북 가격 예측하기**               
 주소 : [https://www.kaggle.com/competitions/laptop-price-prediction](https://www.kaggle.com/competitions/laptop-price-prediction)
 
+### 📜 Summary      
+<img src="https://user-images.githubusercontent.com/72390138/203260010-f611f8e0-45e4-44c3-abb3-48461f6cfdc1.png">     
+
+**노트북의 가격은 끊임없이 오르는 점을 파악**했고, 가격이 적당한가에 대한 의문점을 갖게 되었습니다.        
+하드웨어, 노트북 제조사 등 모든 요구사항을 만족하는 노트북을 찾기는 쉽지 않았을 뿐만 아니라, **가격이 적절한가**에 대한 의문이 들었습니다.      
+
+따라서, 지금까지 판매되었던 노트북 데이터를 이용하여, 원하는 스펙을 가진 노트북의 적절한 인터넷 최저가를 예측하는 모델을 생성해보고자 합니다.    
+**원하는 스펙을 가진 노트북의 적정 인터넷 최저가 분석을 통한 합리적인 노트북을 구입할 수 있도록 하는 것이 목표**입니다.         
+
 
 ### 🗃 Data Info.     
 **Kaggle 노트북 데이터** : [https://www.kaggle.com/competitions/laptop-price-prediction/data](https://www.kaggle.com/competitions/laptop-price-prediction/data)     
@@ -114,4 +123,46 @@ test (350, 11)
 |<span style="color:blue">[우신](https://github.com/tvn123)</span>||         
 |<span style="color:blue">[이혜빈](https://github.com/dkssudgb)</span>||       
 |<span style="color:blue">[우혜진](https://github.com/hyejinWooo)</span>|Laptop price prediction_우혜진.ipynb|         
-|<span style="color:blue">[김예지](https://github.com/meji9086)</span>|Laptop_price_predict_YJ.ipynb|   
+|<span style="color:blue">[김예지](https://github.com/meji9086)</span>|Laptop_price_predict_YJ.ipynb|     
+
+### 📊 Visualization  
+**1️⃣ 컴퓨터 종류 Top5**    
+<img src="https://user-images.githubusercontent.com/72390138/203262255-0d0271e7-9ec6-4821-9374-cb4a3f21f4f2.png">      
+Notebook의 종류가 월등하게 높은 것을 확인할 수 있다.    
+이는, 들고다닐 수 있는 편의성으로 인해 구매율이 높아 생산률도 높을 것이라고 추측할 수 있다.    
+
+**2️⃣ 제조업 종류**          
+<img src="https://user-images.githubusercontent.com/72390138/203263872-972f5506-cea6-42c7-a9d4-51532bb8749b.png">       
+제조업은 Dell, Venovom, HP의 제품들이 월등하게 많은 것을 확인할 수 있다.     
+
+**3️⃣ 하드디스크 Top5**     
+<img src="https://user-images.githubusercontent.com/72390138/203264327-d698d49a-1b8a-4f1e-98a1-d4347279efce.png">     
+일반적으로 많이 사용하는 256GB SSD 제품이 가장 많은 것을 확인할 수 있다.    
+
+**4️⃣ CPU Top5**      
+<img src="https://user-images.githubusercontent.com/72390138/203264495-ac4f7525-1cb4-4125-ad30-5bf3aaee33fc.png">          
+Intel제품의 제품들이 많았고, 그 중 Intel Core i5 7200U 2.5GHz의 CPU가 가장 많은 것을 확인할 수 있다.      
+
+**5️⃣ 각 feature별 상관관계**     
+<img src="https://user-images.githubusercontent.com/72390138/203265947-139720cd-3a8f-4f83-981b-4cf97049706f.png" weight="950" height="600">     
+
+**6️⃣ 각 feature별 histogram**      
+<img src="https://user-images.githubusercontent.com/72390138/203265240-a410982b-26c5-47b3-99c2-2989de76b553.png" weight="950" height="600">     
+   
+
+### 🌳 Tree-based Machine Learning Modeling : RandomForestRegressor    
+**Feature Importances**     
+<img src="https://user-images.githubusercontent.com/72390138/203267028-fd907b70-f633-457a-ac45-9947e02fad92.png">       
+feature 간의 중요도는 1위 CPU, 2위 Peso(무게) 순으로 높은 것을 알 수 있다.          
+
+**각 Feature에 대한 전처리 후 Feature Importances**    
+<img src="https://user-images.githubusercontent.com/72390138/203267744-ff0cd8ac-0508-4c54-bf62-476a704473bc.png">       
+feature 간의 중요도는 1위 RAM, 2위 Peso(무게) 순으로 높은 것을 알 수 있다.     
+
+**가격을 예측하는데에 있어서 무게는 중요하게 평가하는 것으로 예상**할 수 있다.     
+
+### 🍀 Submission MAE       
+ **Submission RMSE** : 402     
+ **RandomForestRegressor Accuracy** : 
+<img src="https://user-images.githubusercontent.com/72390138/203268734-f42ab75f-4d2b-4e3b-86c4-987a9e26d77c.png">       
+     
