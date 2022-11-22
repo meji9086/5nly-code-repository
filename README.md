@@ -151,11 +151,11 @@ Intel제품의 제품들이 많았고, 그 중 Intel Core i5 7200U 2.5GHz의 CPU
    
 
 ### 🌳 Tree-based Machine Learning Modeling : RandomForestRegressor    
-**Feature Importances**     
+**1️⃣ Feature Importances**     
 <img src="https://user-images.githubusercontent.com/72390138/203267028-fd907b70-f633-457a-ac45-9947e02fad92.png" weight="500" height="400">       
 feature 간의 중요도는 1위 CPU, 2위 Peso(무게) 순으로 높은 것을 알 수 있다.          
 
-**각 Feature에 대한 전처리 후 Feature Importances**    
+**2️⃣ 각 Feature에 대한 전처리 후 Feature Importances**    
 <img src="https://user-images.githubusercontent.com/72390138/203267744-ff0cd8ac-0508-4c54-bf62-476a704473bc.png" weight="500" height="400">       
 feature 간의 중요도는 1위 RAM, 2위 Peso(무게) 순으로 높은 것을 알 수 있다.     
 
