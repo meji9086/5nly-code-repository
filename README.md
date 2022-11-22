@@ -127,20 +127,20 @@ test (350, 11)
 
 ### 📊 Visualization  
 **1️⃣ 컴퓨터 종류 Top5**    
-<img src="https://user-images.githubusercontent.com/72390138/203262255-0d0271e7-9ec6-4821-9374-cb4a3f21f4f2.png" weight="400" height="300">      
+<img src="https://user-images.githubusercontent.com/72390138/203262255-0d0271e7-9ec6-4821-9374-cb4a3f21f4f2.png" weight="500" height="400">      
 Notebook의 종류가 월등하게 높은 것을 확인할 수 있다.    
 이는, 들고다닐 수 있는 편의성으로 인해 구매율이 높아 생산률도 높을 것이라고 추측할 수 있다.    
 
 **2️⃣ 제조업 종류**          
-<img src="https://user-images.githubusercontent.com/72390138/203263872-972f5506-cea6-42c7-a9d4-51532bb8749b.png" weight="400" height="300">       
+<img src="https://user-images.githubusercontent.com/72390138/203263872-972f5506-cea6-42c7-a9d4-51532bb8749b.png" weight="500" height="400">       
 제조업은 Dell, Venovom, HP의 제품들이 월등하게 많은 것을 확인할 수 있다.     
 
 **3️⃣ 하드디스크 Top5**     
-<img src="https://user-images.githubusercontent.com/72390138/203264327-d698d49a-1b8a-4f1e-98a1-d4347279efce.png" weight="400" height="300">     
+<img src="https://user-images.githubusercontent.com/72390138/203264327-d698d49a-1b8a-4f1e-98a1-d4347279efce.png" weight="500" height="400">     
 일반적으로 많이 사용하는 256GB SSD 제품이 가장 많은 것을 확인할 수 있다.    
 
 **4️⃣ CPU Top5**      
-<img src="https://user-images.githubusercontent.com/72390138/203264495-ac4f7525-1cb4-4125-ad30-5bf3aaee33fc.png" weight="400" height="300">          
+<img src="https://user-images.githubusercontent.com/72390138/203264495-ac4f7525-1cb4-4125-ad30-5bf3aaee33fc.png" weight="500" height="400">          
 Intel제품의 제품들이 많았고, 그 중 Intel Core i5 7200U 2.5GHz의 CPU가 가장 많은 것을 확인할 수 있다.      
 
 **5️⃣ 각 feature별 상관관계**     
@@ -152,11 +152,11 @@ Intel제품의 제품들이 많았고, 그 중 Intel Core i5 7200U 2.5GHz의 CPU
 
 ### 🌳 Tree-based Machine Learning Modeling : RandomForestRegressor    
 **Feature Importances**     
-<img src="https://user-images.githubusercontent.com/72390138/203267028-fd907b70-f633-457a-ac45-9947e02fad92.png" weight="400" height="300">       
+<img src="https://user-images.githubusercontent.com/72390138/203267028-fd907b70-f633-457a-ac45-9947e02fad92.png" weight="500" height="400">       
 feature 간의 중요도는 1위 CPU, 2위 Peso(무게) 순으로 높은 것을 알 수 있다.          
 
 **각 Feature에 대한 전처리 후 Feature Importances**    
-<img src="https://user-images.githubusercontent.com/72390138/203267744-ff0cd8ac-0508-4c54-bf62-476a704473bc.png" weight="400" height="300">       
+<img src="https://user-images.githubusercontent.com/72390138/203267744-ff0cd8ac-0508-4c54-bf62-476a704473bc.png" weight="500" height="400">       
 feature 간의 중요도는 1위 RAM, 2위 Peso(무게) 순으로 높은 것을 알 수 있다.     
 
 **가격을 예측하는데에 있어서 무게는 중요하게 평가하는 것으로 예상**할 수 있다.     
@@ -164,5 +164,5 @@ feature 간의 중요도는 1위 RAM, 2위 Peso(무게) 순으로 높은 것을 
 ### 🍀 Submission MAE       
  **Submission RMSE** : 402     
  **RandomForestRegressor Accuracy** : 
-<img src="https://user-images.githubusercontent.com/72390138/203268734-f42ab75f-4d2b-4e3b-86c4-987a9e26d77c.png" weight="400" height="300">       
+<img src="https://user-images.githubusercontent.com/72390138/203268734-f42ab75f-4d2b-4e3b-86c4-987a9e26d77c.png" weight="500" height="400">       
      
