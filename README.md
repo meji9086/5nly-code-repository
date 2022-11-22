@@ -127,7 +127,7 @@ test (350, 11)
 
 ### 📊 Visualization  
 **1️⃣ 컴퓨터 종류 Top5**    
-<img src="https://user-images.githubusercontent.com/72390138/203262255-0d0271e7-9ec6-4821-9374-cb4a3f21f4f2.png" weight="500" height="400">      
+<img src="https://user-images.githubusercontent.com/72390138/203262255-0d0271e7-9ec6-4821-9374-cb4a3f21f4f2.png" weight="550" height="450">      
 Notebook의 종류가 월등하게 높은 것을 확인할 수 있다.    
 이는, 들고다닐 수 있는 편의성으로 인해 구매율이 높아 생산률도 높을 것이라고 추측할 수 있다.    
 
@@ -136,18 +136,18 @@ Notebook의 종류가 월등하게 높은 것을 확인할 수 있다.
 제조업은 Dell, Venovom, HP의 제품들이 월등하게 많은 것을 확인할 수 있다.     
 
 **3️⃣ 하드디스크 Top5**     
-<img src="https://user-images.githubusercontent.com/72390138/203264327-d698d49a-1b8a-4f1e-98a1-d4347279efce.png" weight="500" height="400">     
+<img src="https://user-images.githubusercontent.com/72390138/203264327-d698d49a-1b8a-4f1e-98a1-d4347279efce.png" weight="550" height="450">     
 일반적으로 많이 사용하는 256GB SSD 제품이 가장 많은 것을 확인할 수 있다.    
 
 **4️⃣ CPU Top5**      
-<img src="https://user-images.githubusercontent.com/72390138/203264495-ac4f7525-1cb4-4125-ad30-5bf3aaee33fc.png" weight="500" height="400">          
+<img src="https://user-images.githubusercontent.com/72390138/203264495-ac4f7525-1cb4-4125-ad30-5bf3aaee33fc.png" weight="550" height="450">          
 Intel제품의 제품들이 많았고, 그 중 Intel Core i5 7200U 2.5GHz의 CPU가 가장 많은 것을 확인할 수 있다.      
 
 **5️⃣ 각 feature별 상관관계**     
 <img src="https://user-images.githubusercontent.com/72390138/203265947-139720cd-3a8f-4f83-981b-4cf97049706f.png" weight="950" height="600">     
 
 **6️⃣ 각 feature별 histogram**      
-<img src="https://user-images.githubusercontent.com/72390138/203265240-a410982b-26c5-47b3-99c2-2989de76b553.png" weight="950" height="600">     
+<img src="https://user-images.githubusercontent.com/72390138/203265240-a410982b-26c5-47b3-99c2-2989de76b553.png" weight="700" height="550">     
    
 
 ### 🌳 Tree-based Machine Learning Modeling : RandomForestRegressor    
