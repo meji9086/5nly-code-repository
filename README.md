@@ -132,7 +132,7 @@ Notebook의 종류가 월등하게 높은 것을 확인할 수 있다.
 이는, 들고다닐 수 있는 편의성으로 인해 구매율이 높아 생산률도 높을 것이라고 추측할 수 있다.    
 
 **2️⃣ 제조업 종류**          
-<img src="https://user-images.githubusercontent.com/72390138/203263872-972f5506-cea6-42c7-a9d4-51532bb8749b.png" weight="500" height="400">       
+<img src="https://user-images.githubusercontent.com/72390138/203263872-972f5506-cea6-42c7-a9d4-51532bb8749b.png">       
 제조업은 Dell, Venovom, HP의 제품들이 월등하게 많은 것을 확인할 수 있다.     
 
 **3️⃣ 하드디스크 Top5**     
@@ -162,7 +162,7 @@ feature 간의 중요도는 1위 RAM, 2위 Peso(무게) 순으로 높은 것을 
 **가격을 예측하는데에 있어서 무게는 중요하게 평가하는 것으로 예상**할 수 있다.     
 
 ### 🍀 Submission MAE       
- **Submission RMSE** : 402     
- **RandomForestRegressor Accuracy** : 
+**Submission RMSE** : 402     
+**RandomForestRegressor Accuracy** :           
 <img src="https://user-images.githubusercontent.com/72390138/203268734-f42ab75f-4d2b-4e3b-86c4-987a9e26d77c.png" weight="500" height="400">       
      
