@@ -19,7 +19,7 @@
 dacon AI 경진대회 : **제주도 도로 교통량 예측하기**                    
 주소 : [https://dacon.io/competitions/official/235985/data](https://dacon.io/competitions/official/235985/data)        
 
-팀 1️⃣ : 이재명, 우신, 김예지          
+팀 1️⃣ : 이재모, 우신, 김예지          
 팀 2️⃣ : 우혜진, 이혜빈, 김호연         
 
 ### 📜 Summary    
